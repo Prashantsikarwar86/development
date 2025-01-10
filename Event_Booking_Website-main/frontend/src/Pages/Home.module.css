@@ -1,0 +1,33 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image img{
+    width:100%;
+    height:70vh;
+    
+}
+
+.image{
+    position:relative;
+}
+.image .but{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.image button{
+    height:6vh;
+    padding:6px;
+    background-color: rgba(9, 185, 9, 0.938);
+    font-family: cursive;
+    border-radius: 15%;
+}
+.image input{
+    width:40vw;
+    height:6vh;
+}
+.plain{
+    background-image: url("https://th.bing.com/th?id=OIP.vjUQ4pVid2bZ2osx7h8rhQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+    border:2px solid black;
+}
